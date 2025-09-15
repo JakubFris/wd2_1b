@@ -1,10 +1,46 @@
-*{
+* {
     margin: 0;
 }
-.nadpis{
-    color:rgb(79, 70, 229) ;
+
+.nadpis {
+    color: rgb(79, 70, 229);
+    padding-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-.nvm{
+
+.nvm {
     color: rgb(99, 102, 241);
+    padding-top: 4%;
+    padding-left: 3%;
+
+}
+
+.np {
+    padding-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.pn {
+    padding-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.dov {
+    display: flex;
     justify-content: center;
-}   
+    align-items: center;    
+    flex-direction: column;
+}
+
+.nost {
+    margin: 1%;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+  border-radius: 15%;
+}
