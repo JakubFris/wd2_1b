@@ -94,3 +94,53 @@ p {
     font-family: ui-sans-serif,sans-serif;
      color: rgb(31,41,55);
 }
+.kk{
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+@media (min-width: 1024px) {  
+  
+  .dov {
+    flex-direction: row;  
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;   
+    gap: 2%; 
+    padding: 3%;
+  }
+
+  .nost {
+    width: 20%;      
+    margin: 0;      
+    text-align: center;
+    font-weight: 600;
+    border-radius: 12px;
+  }
+
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .box {
+    width: 28%;   
+    margin: 1% 0;  
+    text-align: center;
+  }
+  
+  .nadpis {
+    font-size: 5ch;
+  }
+
+  .nvm {
+    font-size: 2em;
+    margin-bottom: 3%;
+  }
+  .kon{
+    font-size: 3ch;
+  }
+}
